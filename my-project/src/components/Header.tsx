@@ -12,7 +12,7 @@ import Router, { useRouter } from "next/router";
 export const Header = () => {
   const router = useRouter();
   return (
-    <header className=" p-5  flex md:justify-between flex-col md:flex-row ">
+    <header className=" p-5 lg:p-10  flex md:justify-between flex-col md:flex-row   ">
       <div className="flex  sm:space-x-6 md:space-x-8 lg:space-x-10  justify-center space-y-6 ">
         <div className="group flex flex-col justify-center items-center mt-6 md:ml-10 md:w-[60px] w-[40px] text-center">
           <HomeIcon className="headerIcon" />
@@ -43,7 +43,7 @@ export const Header = () => {
         className="flex justify-center w-full cursor-pointer md:justify-end "
         onClick={() => router.push("/")}
       >
-        <Image style={{objectFit:"contain"}} src={hulu} alt="hulu_image" width={100} height={100} />
+        <Image style={{objectFit:"contain"}} src={hulu} alt="hulu_image" width={150} height={150} />
       </div>
     </header>
   );

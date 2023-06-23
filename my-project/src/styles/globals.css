@@ -9,6 +9,6 @@
 }
 @layer base{
   body{
-    @apply bg-[#0b1e29] text-[#a4b5c1] min-w-fit fixed
+    @apply bg-[#0b1e29] text-[#a4b5c1]  
   }
 }
